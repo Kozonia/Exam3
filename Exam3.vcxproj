@@ -123,16 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Exam3Main.cpp" />
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Job.cpp" />
     <ClCompile Include="Mage.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Job.h" />
     <ClInclude Include="Mage.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
